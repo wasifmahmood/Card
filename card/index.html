@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html > 
+  
+  
+
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./profile.js"></script>
+    
+</head>
+<body onload="apiCall()" style="background-image: linear-gradient(to right, rgb(25, 70, 100)(0, 0, 0) , rgb(10, 105, 248)); height: 100%;width: 100%;">
+
+    <nav class="navbar navbar-expand-sm bg-success" >
+        <div class="container-fluid justify-content-start">
+          <ul class=" navbar-nav mr-auto smooth-scroll" >
+            <li class="nav-item" >
+            <a id="buttonuser"class="nav-link "   onclick="Buttonuser()" >User</a>
+        </li> 
+         <li class="nav-item " >    
+        <a id="buttonpost" class="nav-link "   onclick="Buttonpost()" >Post</a> 
+         </li>
+          </ul>
+        </div>
+      </nav>
+      
+     
+<div id="parentuser" class="row"></div>
+<div id="parentpost" class="row"></div>
+
+
+
+</body>
+</html> 
